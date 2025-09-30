@@ -1,2 +1,5 @@
 # Ignore gzip archives
 *.gz
+
+# Ignore all files in the data/ folder
+/data/
