@@ -3,3 +3,7 @@
 
 # Ignore all files in the data/ folder
 /data/
+
+venv/
+
+.python-version
