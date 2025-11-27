@@ -52,3 +52,11 @@ Hyperbolic tangent
 Train for decent number of epochs: More than 10
 Learning rate:
 10^-3 works very well but if it learns too slowly then go to a higher learning rate otherwise go lower.
+
+## Infos Project 4
+
+1. Need to create a categorical feature out of the age for example and split it into buckets as we can see that it is not linear and therefore create buckets where we can approcimate that it is linear and then use the exp of the linear function on it. So one-hot encode the age data in it's individually assigned buckets. Give reasoning why we chose these intervals to create the categories.
+
+2. Need to try out different architectures and will see that it is only marginally better then the Possion GLM. Not even 10% better
+
+3. Make sure that the parameter which is chosen by the CV is not at the egdes as this means that the grid size needs to be enlarged. Check the variablility of the data and decide on a grid size and then choose that for the CV.
